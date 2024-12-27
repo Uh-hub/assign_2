@@ -8,7 +8,7 @@ public:
 };
 
 void Animal::makeSound() {
-	cout << "家府免仿 " << endl;
+	cout << "Make Sound" << endl;
 }
 
 
@@ -16,21 +16,21 @@ void Animal::makeSound() {
 class Dog : public Animal{
 public:
 	void makeSound() override {
-		cout << "港港" << endl;
+		cout << "Woof!" << endl;
 	}
 };
 
 class Cat : public Animal {
 public:
 	void makeSound() override {
-		cout << "衬成" << endl;
+		cout << "Meow!" << endl;
 	}
 };
 
 class Cow : public Animal {
 public:
 	void makeSound() override {
-		cout << "澜皋" << endl;
+		cout << "Moo!" << endl;
 	}
 };
 
